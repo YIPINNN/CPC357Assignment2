@@ -2,13 +2,13 @@
 #include <PubSubClient.h>
 
 /* ================== WiFi ================== */
-const char* ssid = "yipin";
-const char* password = "yipintan323";
+const char* WIFI_SSID = "WIFISSID";  // Your WiFi SSID
+const char* WIFI_PASSWORD = "Password";  // Your WiFi password
 
 /* ================== MQTT ================== */
-const char* mqttServer = "146.148.76.85";
+const char* mqttServer = "146.148.76.85"; // VM instance public IP
 const int mqttPort = 1883;
-const char* MQTT_TOPIC = "iot";
+const char* MQTT_TOPIC = "iot"; // MQTT topic
 
 /* ================== Pins ================== */
 const int moisturePin = 35;
