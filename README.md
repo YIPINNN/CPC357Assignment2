@@ -45,6 +45,6 @@ The system is designed to:
 ## Pump Control Logic
 | Condition                      | Action   |
 | ------------------------------ | -------- |
-| Moisture < 40% AND Water > 10% | Pump ON  |
-| Moisture ≥ 80% OR Water ≤ 10%  | Pump OFF |
+| Soil Moisture < 40% AND Water Level > 10% | Pump ON  |
+| Soil Moisture ≥ 80% OR Water Level ≤ 10%  | Pump OFF |
 
