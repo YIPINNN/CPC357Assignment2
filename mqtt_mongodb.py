@@ -6,7 +6,7 @@ from pymongo.mongo_client import MongoClient
 from pymongo.server_api import ServerApi
 
 # MongoDB Configuration
-uri = "mongodb+srv://yipintan323:yipintan323@cluster0.vw1vppc.mongodb.net/?appName=Cluster0"
+uri = "mongodb+srv://<db_username>:<db_password>@cluster0.vw1vppc.mongodb.net/?appName=Cluster0"
 
 # Create a new MongoDB client and connect to the server
 try:
@@ -72,4 +72,5 @@ except Exception as e:
     exit(1)
 
 # Start the MQTT loop to listen for messages
+
 mqtt_client.loop_forever()
